@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     screens: {
       'sm': '270px',  // Default Tailwind breakpoint
-      'md': '700px',  // Default Tailwind breakpoint
+      'md': '780px',  // Default Tailwind breakpoint
       'lg': '1024px', // Default Tailwind breakpoint
   
     },

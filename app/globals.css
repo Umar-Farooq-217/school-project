@@ -6,5 +6,5 @@
   background-image: url(./../public/image-18.png);
   
   width: 100%;
-  height: auto;
+  min-height: 600px;
 }
