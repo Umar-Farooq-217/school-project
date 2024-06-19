@@ -2,9 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-.background{
+.background {
   background-image: url(./../public/image-18.png);
-  
+  background-size: cover;
+  background-position: center;
   width: 100%;
-  min-height: 600px;
+  min-height: 530px;
+}
+
+.navbar {
+  position: relative;
+  z-index: 10; /* Ensure the navbar is above the background */
+}
+
+.menu {
+  z-index: 20; /* Ensure the menu is above the navbar and background */
 }
