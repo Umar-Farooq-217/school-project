@@ -25,7 +25,7 @@ export default function Navbar() {
         <Image src="/navImag.png" className='pt-4' width={50} height={60} alt="Description of image" />
         <ul className={`menu md:flex sm:pt-9 sm:pl-4 md:pl-0 sm:bg-[rgb(69,68,67)] md:bg-transparent sm:w-full md:w-auto sm:pb-4 absolute left-0 md:static md:z-auto transition-all duration-500 ease-in ${open ? 'top-20' : 'top-[-490px]'} `}>
           {links.map((link) => (
-            <li key={link.name} className="text-white px-4 sm:py-2 hover:text-sky-200">
+            <li key={link.name} className="text-white text-center  px-4 sm:py-2 hover:text-red-300">
               <Link href={link.link}>
                 {link.name}
               </Link>
