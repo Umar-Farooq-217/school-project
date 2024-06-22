@@ -23,19 +23,9 @@ export default function Home() {
       </div>
 
       <div className=" grid grid-cols-[repeat(auto-fit,minmax(min(600px,100%),1fr))] pt-14 md:px-24 sm:px-10">
-        <div className=" relative   ">
-          <div className="absolute  top-64 z-0 ">
-            <Image src='/dot.png' width={150} height={150}/>
-          </div>
-
-          <div className="absolute  top-5 left-7 z-10">
-
-          <Image src='/soldier.png' className='' width={449} height={300}/>
-          </div>
-
-          <Image src='/Polygon 1.png '  className='absolute top-40 left-60 z-30 ' alt='polygon' width={25} height={25}/>
-        
-        </div>
+      <div className="">
+        <Image src=''/>
+      </div>
         <div className=" mt-5 relative top-80 md:top-0  left-0">
           <h1 className="text-black text-3xl font-bold pt-12 pr-6 ">Sambutan Kepala Sekolah
           SMP Negeri 1 Cibadak</h1>
