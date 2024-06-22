@@ -22,12 +22,12 @@ export default function Home() {
         </div>
       </div>
 
-      <div className=" grid grid-cols-[repeat(auto-fit,minmax(min(600px,100%),1fr))] pt-14 md:px-24 sm:px-10">
+      <div className=" grid md:grid-cols-2 sm:grid-cols-1 gap-5 pt-14  md:px-24 sm:px-10">
       <div className="">
-        <Image src=''/>
+        <Image src='/soldier.png' className='w-full h-[348px] mt-10' width={400} height={400}/>
       </div>
-        <div className=" mt-5 relative top-80 md:top-0  left-0">
-          <h1 className="text-black text-3xl font-bold pt-12 pr-6 ">Sambutan Kepala Sekolah
+        <div className=" mt-5 relative sm:top-28 md:top-0  left-0">
+          <h1 className="text-black text-3xl font-bold pt-12  pr-6 ">Sambutan Kepala Sekolah
           SMP Negeri 1 Cibadak</h1>
           <p className="text-black text-sm pt-12">Puji dan syukur mari kita panjatkan kehadirat Allah SWT. Yang senantiasa dengan sifat kasih dan sayangnya banyak memberikan nikmat  ...</p>
           <div className="pt-12">
