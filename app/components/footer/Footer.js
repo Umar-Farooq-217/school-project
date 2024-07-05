@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
-
+import 'animate.css';
 export default function Footer() {
   return (
     <div>
         <div className="grid md:grid-cols-4 sm:grid-cols-1 md:px-24 sm:px-10 gap-5 pt-16">
-        <div className="">
+        <div className=" animate__animated animate__zoomIn">
             <Image src='/navImag.png' className='' width={40} height={40} />
             <p className="text-sm pt-5">Jl. Siliwangi No 123, Cibadak, Cibadak, Sukabumi,
             Jawa Barat 43351, Indonesia, (0266)531333</p>
@@ -16,7 +16,7 @@ export default function Footer() {
             info@smpn1cibadak.sch.id
             </p>
         </div>
-        <div className="">
+        <div className=" animate__animated animate__zoomIn">
             <h1 className="text-xl font-bold">
             Jelajah
             </h1>
@@ -34,7 +34,7 @@ export default function Footer() {
            
 
         </div>
-        <div className="">
+        <div className=" animate__animated animate__zoomIn">
             <h2 className="text-xl font-bold">Halaman Umum</h2>
             <p className="font-semibold py-2 pt-8">
             Data Guru
@@ -53,7 +53,7 @@ export default function Footer() {
             </p>
             
         </div>
-        <div className="">
+        <div className=" animate__animated animate__zoomIn">
             <h1 className="text-xl font-bold">Social Media</h1>
             <div className="flex mt-5">
                 <div className="border-slate border-[2px] rounded-lg w-7 h-7 flex justify-center items-center  "> 
@@ -71,7 +71,7 @@ export default function Footer() {
         </div>
 
         <div className="h-[1px] bg-slate-300 sm:mx-10 md:mx-24 mt-5"></div>
-        <p className=" font-semibold md:px-24 sm:px-10 mt-10 mb-10">Copyright © SMP Negeri 1 Cibadak. All right Reserved. Hosting By IDCloudHost</p>
+        <p className=" font-semibold md:px-24 sm:px-10 mt-10 mb-10  animate__animated animate__zoomIn">Copyright © SMP Negeri 1 Cibadak. All right Reserved. Hosting By IDCloudHost</p>
 
 
     </div>
